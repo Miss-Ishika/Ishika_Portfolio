@@ -7,8 +7,8 @@ const Contact = () => {
         <div className='container mx-auto px-8 md:px-16 lg:px-24'>
             <h2 className='text-4xl font-bold text-center md:mb-24'>Contact Me</h2>
             <div className='flex flex-col md:flex-row justify-between md:space-x-12'>
-              <div className='flex-1'>
-                <img src={pic} alt="contact" className='w-1/2 rounded-2xl'/>
+              <div className='flex-1 mx-24'>
+                <img src={pic} alt="contact" className='w-full sm:w-1/2 rounded-2xl'/>
               </div>
               <div className='flex-1 w-full'>
                 <form className='space-y-4' >
